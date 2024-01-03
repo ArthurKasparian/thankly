@@ -1,0 +1,116 @@
+<!--
+  Copyright (c) 2023 ~ 2024 Arthur Kasparian, Individual All Rights Reserved
+  Unauthorized copying of this file, via any medium is strictly prohibited
+  Proprietary and confidential
+  Written by Arthur Kasparian <contact@arthurkasparian.dev>, Month 1 2024. Last modified 03/01/2024, 11:39 pm
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Must have -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+    <!-- General site info -->
+    <title>Thankly</title>
+    <meta name="author" content="Arthur Kasparian">
+    <meta name="description" content="Thankly, a virtual gratitude journal to jot down whatever makes you happy.">
+    <meta name="copyright" content="Arthur Kasparian">
+    <meta name="subject" content="Landing page for Thankly.">
+
+    <meta name="rating" content="General">
+    <meta name="referrer" content="no-referrer">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Search engines -->
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+
+    <!-- Specifications -->
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+
+    <!-- Embeds & social media links -->
+    <meta property="og:title" content="Thankly">
+    <meta property="og:url" content="https://thankly.arthurkasparian.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://thankly.arthurkasparian.dev/res/icons/logo.png">
+    <meta property="og:image:alt" content="Thankly Logo.">
+    <meta property="og:description" content="Thankly, a virtual gratitude journal to jot down whatever makes you happy.">
+    <meta property="og:site_name" content="Thankly Landing Page">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="Thankly, a virtual gratitude journal to jot down whatever makes you happy.">
+    <!--<meta name="twitter:site" content="@KasparianArthur">-->
+    <meta name="twitter:creator" content="@KasparianArthur">
+    <meta name="twitter:url" content="https://thankly.arthurkasparian.dev">
+    <meta name="twitter:title" content="Thankly">
+    <meta name="twitter:description" content="Thankly, a virtual gratitude journal to jot down whatever makes you happy.">
+    <meta name="twitter:image" content="https://thankly.arthurkasparian.dev/res/icons/logo.png">
+    <meta name="twitter:image:alt" content="Thankly Logo.">
+
+    <!-- disallow Twitter from using your site's info for personalization purposes -->
+    <meta name="twitter:dnt" content="on">
+
+    <!-- Visual specifications -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#D7E4DB" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1C201F" />
+    <link rel="icon" sizes="192x192" type="image/png" href="res/icons/logo.png">
+    <link rel="apple-touch-icon" href="res/icons/logo.png">
+    <link rel="mask-icon" href="res/icons/logo.png" color="orange">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div id="extra">
+
+    <a id="back" href="https://arthurkasparian.dev/#Thankly" title="Main Site">
+        <svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25 9C25.5523 9 26 8.55228 26 8C26 7.44772 25.5523 7 25 7V9ZM0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM25 7L1 7V9L25 9V7Z"/>
+        </svg>
+    </a>
+
+    <a id="github" href="https://github.com/ArthurKasparian/thankly" title="Project Repository" target="_blank">
+
+        <svg width="32" height="32" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 14.42 2.87 18.17 6.84 19.5C7.34 19.58 7.5 19.27 7.5 19V17.31C4.73 17.91 4.14 15.97 4.14 15.97C3.68 14.81 3.03 14.5 3.03 14.5C2.12 13.88 3.1 13.9 3.1 13.9C4.1 13.97 4.63 14.93 4.63 14.93C5.5 16.45 6.97 16 7.54 15.76C7.63 15.11 7.89 14.67 8.17 14.42C5.95 14.17 3.62 13.31 3.62 9.5C3.62 8.39 4 7.5 4.65 6.79C4.55 6.54 4.2 5.5 4.75 4.15C4.75 4.15 5.59 3.88 7.5 5.17C8.29 4.95 9.15 4.84 10 4.84C10.85 4.84 11.71 4.95 12.5 5.17C14.41 3.88 15.25 4.15 15.25 4.15C15.8 5.5 15.45 6.54 15.35 6.79C16 7.5 16.38 8.39 16.38 9.5C16.38 13.32 14.04 14.16 11.81 14.41C12.17 14.72 12.5 15.33 12.5 16.26V19C12.5 19.27 12.66 19.59 13.17 19.5C17.14 18.16 20 14.42 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z"/>
+        </svg>
+
+    </a>
+
+</div>
+
+<h1><span id="t">T</span>hankly</h1>
+
+<nav>
+    <ul>
+        <li id="android">
+
+            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 13.314C0.15 11.5307 0.696 9.88904 1.638 8.38904C2.58 6.88904 3.834 5.69737 5.4 4.81404L3.55 1.61404C3.45 1.46404 3.425 1.3057 3.475 1.13904C3.525 0.972371 3.63333 0.847371 3.8 0.764038C3.93333 0.680705 4.08333 0.664038 4.25 0.714038C4.41667 0.764038 4.55 0.864038 4.65 1.01404L6.5 4.21404C7.93333 3.61404 9.43333 3.31404 11 3.31404C12.5667 3.31404 14.0667 3.61404 15.5 4.21404L17.35 1.01404C17.45 0.864038 17.5833 0.764038 17.75 0.714038C17.9167 0.664038 18.0667 0.680705 18.2 0.764038C18.3667 0.847371 18.475 0.972371 18.525 1.13904C18.575 1.3057 18.55 1.46404 18.45 1.61404L16.6 4.81404C18.1667 5.69737 19.4207 6.88904 20.362 8.38904C21.3033 9.88904 21.8493 11.5307 22 13.314H0ZM6 10.564C6.35 10.564 6.646 10.443 6.888 10.201C7.13 9.95904 7.25067 9.66337 7.25 9.31404C7.25 8.96404 7.129 8.66804 6.887 8.42604C6.645 8.18404 6.34933 8.06337 6 8.06404C5.65 8.06404 5.354 8.18504 5.112 8.42704C4.87 8.66904 4.74933 8.9647 4.75 9.31404C4.75 9.66404 4.871 9.96004 5.113 10.202C5.355 10.444 5.65067 10.5647 6 10.564ZM16 10.564C16.35 10.564 16.646 10.443 16.888 10.201C17.13 9.95904 17.2507 9.66337 17.25 9.31404C17.25 8.96404 17.129 8.66804 16.887 8.42604C16.645 8.18404 16.3493 8.06337 16 8.06404C15.65 8.06404 15.354 8.18504 15.112 8.42704C14.87 8.66904 14.7493 8.9647 14.75 9.31404C14.75 9.66404 14.871 9.96004 15.113 10.202C15.355 10.444 15.6507 10.5647 16 10.564Z"/>
+            </svg>
+
+        </li>
+
+        <li id="ios">
+
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.0535 17.2788C12.0735 18.2288 11.0035 18.0788 9.97352 17.6288C8.88352 17.1688 7.88352 17.1488 6.73352 17.6288C5.29352 18.2488 4.53352 18.0688 3.67352 17.2788C-1.20648 12.2488 -0.486479 4.58884 5.05352 4.30884C6.40352 4.37884 7.34352 5.04884 8.13352 5.10884C9.31352 4.86884 10.4435 4.17884 11.7035 4.26884C13.2135 4.38884 14.3535 4.98884 15.1035 6.06884C11.9835 7.93884 12.7235 12.0488 15.5835 13.1988C15.0135 14.6988 14.2735 16.1888 13.0435 17.2888L13.0535 17.2788ZM8.03352 4.24884C7.88352 2.01884 9.69352 0.17884 11.7735 -0.00115967C12.0635 2.57884 9.43352 4.49884 8.03352 4.24884Z"/>
+            </svg>
+
+        </li>
+
+        <li id="web">
+
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.36 12C14.44 11.34 14.5 10.68 14.5 10C14.5 9.32 14.44 8.66 14.36 8H17.74C17.9 8.64 18 9.31 18 10C18 10.69 17.9 11.36 17.74 12M12.59 17.56C13.19 16.45 13.65 15.25 13.97 14H16.92C15.9512 15.6683 14.4141 16.932 12.59 17.56ZM12.34 12H7.66C7.56 11.34 7.5 10.68 7.5 10C7.5 9.32 7.56 8.65 7.66 8H12.34C12.43 8.65 12.5 9.32 12.5 10C12.5 10.68 12.43 11.34 12.34 12ZM10 17.96C9.17 16.76 8.5 15.43 8.09 14H11.91C11.5 15.43 10.83 16.76 10 17.96ZM6 6H3.08C4.03886 4.32721 5.5748 3.06149 7.4 2.44C6.8 3.55 6.35 4.75 6 6ZM3.08 14H6C6.35 15.25 6.8 16.45 7.4 17.56C5.57862 16.9317 4.04485 15.6677 3.08 14ZM2.26 12C2.1 11.36 2 10.69 2 10C2 9.31 2.1 8.64 2.26 8H5.64C5.56 8.66 5.5 9.32 5.5 10C5.5 10.68 5.56 11.34 5.64 12M10 2.03C10.83 3.23 11.5 4.57 11.91 6H8.09C8.5 4.57 9.17 3.23 10 2.03ZM16.92 6H13.97C13.657 4.76146 13.1936 3.5659 12.59 2.44C14.43 3.07 15.96 4.34 16.92 6ZM10 0C4.47 0 0 4.5 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z"/>
+            </svg>
+
+        </li>
+    </ul>
+</nav>
+
+</body>
+</html>
